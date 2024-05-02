@@ -1,0 +1,310 @@
+body {
+	margin: 0;
+	width: 100%;
+	font-family: 'Helvetica Neue', Arial, sans-serif;
+	font-size: 16px;
+	overflow-x: scroll;
+	overflow-y: scroll;
+}
+
+nav {
+	width: 100%;	
+	background-color: white;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 0 auto;
+}
+
+.logo {
+	color: #fff;
+}
+
+.logo img{
+	width: 6.5em;
+	height: auto;
+}
+
+.nav-links {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+.nav-links li {
+  margin-right: 1.4em;
+}
+
+.nav-links li:last-child {
+	margin-right: 1em;
+}
+
+
+.nav-links li a {
+  color: black;
+  font-size: 1.9em;
+  letter-spacing: 0.03em;
+  font-weight: 550;
+  text-decoration: none;
+}
+
+.share{
+	margin: 0;
+	margin-right: 5em;
+}
+
+.share img{
+	width: 6.6em;
+	height: auto;
+}
+
+.container{
+	background-image: url('heroimg.jpg');
+	background-position: center;
+	background-size: cover;
+	width: 100%;
+	height: 45em;
+	display: flex;
+	align-items: end;
+	justify-content: left;
+}
+
+.container h1{
+	font-size: 2.5em;
+	margin: 3%;
+	padding: 0.4em 8%;
+	color: white;
+	background: linear-gradient(90deg,black,#727272);
+}
+
+.info{
+	display: flex;
+	background: #B2B2B2;
+	justify-content: space-between;
+}
+
+.text{
+	font-size: 1.3em;
+	text-align: center;
+	padding: 3.5% 2%;
+	font-weight: 300;
+	line-height: 1.3em;
+	letter-spacing: 0.09em;
+}
+
+.lastscreen{
+	padding: 1em 5vw;
+	background-color: #DAD6DF;
+}
+
+.lastscreen h1{
+	margin: 1.2em 0;
+	font-size: 3.5em;
+}
+
+.luxaries{
+	margin: 1.5em 0 ;
+	display: flex;
+	justify-content: space-between;
+
+}
+
+.luxury,.luxury-text{
+	width: 29%;
+	font-weight: bold;
+}
+
+.luxury img{
+	width: 100%;
+}
+
+.luxaries-text{
+	margin: 0 ;
+	display: flex;
+	justify-content: space-between;
+	font-size: 1.1em;
+
+}
+
+.luxury-text h4{
+	margin:1em 0;
+}
+
+.luxury-test p{
+	margin: 0;
+}
+
+#text1{
+	text-align: left;
+}
+
+#text2{
+	text-align: center;
+}
+
+#text3{
+	text-align: right;
+}
+
+.luxury-text button{
+	margin-top: 1.8em;
+	color: white;
+	background: black;
+	padding: 1em 3.5vw;
+	font-size: 1em;
+	border: none;
+	font-weight: bold;
+
+}
+
+.footer{
+	width: 100%;
+	height: 5em;
+	background: #DAD6DF;
+}
+
+
+/*Responsive styles*/
+
+@media (max-width: 5760px) {						/*5760px*/	
+	body{
+		font-size: 46px;
+	}
+}	
+
+@media (max-width: 4320px) {						/*4320px*/	
+	body{
+		font-size: 38px;
+	}
+}	
+
+@media (max-width: 2880px) {						/*2880px*/	
+	body{
+		font-size: 27px;
+	}
+}	
+
+@media (max-width: 2160px) {						/*2160px*/	
+	body{
+		font-size: 22px;
+	}
+}	
+
+@media (max-width: 1920px) {						/*1920px*/	
+	body{
+		font-size: 21px;
+	}
+}	
+
+@media (max-width: 1800px) {						/*1800px*/	
+	body{
+		font-size: 20px;
+	}
+}	
+
+@media (max-width: 1600px) {						/*1600px*/	
+	body{
+		font-size: 18px;
+	}
+}	
+
+@media (max-width: 1400px) {						/*1400px*/	
+	body{
+		font-size: 16px;
+	}
+}
+
+@media (max-width: 1250px) {						/*1250px*/	
+	body{
+		font-size: 15px;
+	}
+}	
+
+@media (max-width: 1150px) {						/*1150px*/	
+	body{
+		font-size: 14px;
+	}
+}	
+
+@media (max-width: 1075px) {						/*1075px*/
+	body{
+		font-size: 13px;
+}
+
+@media (max-width: 975px) {							/*970px*/
+	body{
+		font-size: 12.5px;
+	}
+}	
+
+@media (max-width: 910px) {							/*910px*/
+	body{
+		font-size: 11.8px;
+	}
+}	
+
+@media (max-width: 860px) {							/*860px*/
+	body{
+		font-size: 11px;
+	}
+}	
+
+@media (max-width: 800px) {							/*800px*/
+	body{
+		font-size: 10px;
+	}
+}
+
+@media (max-width: 740px) {							/*740px*/
+	body{
+		font-size: 9.6px;
+	}
+}	
+
+@media (max-width: 700px) {							/*700px*/
+	body{
+		font-size: 9px;
+	}
+}	
+
+@media (max-width: 660px) {							/*660px*/
+	body{
+		font-size: 7.7px;
+	}
+}		
+
+@media (max-width: 570px) {							/*570px*/
+  	body{
+		font-size: 7px;
+
+	}
+}
+
+@media (max-width: 510px) {							/*510px*/
+  	body{
+		font-size: 6.4px;
+
+	}
+}
+
+@media (max-width: 470px) {							/*470px*/
+  	body{
+		font-size: 5.7px;
+
+	}
+}
+
+@media (max-width: 420px) {							/*420px*/
+  	body{
+		font-size: 4.8px;
+	}
+}
+
+@media (max-width: 350px) {							/*350px*/
+  	body{
+		font-size: 3.7px;
+		min-width: 270px;
+	}
+}
